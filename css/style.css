@@ -1,0 +1,186 @@
+body {
+    background: #121212;
+    color: #f5f5f5;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+}
+.navbar {
+    background: linear-gradient(90deg, #000, #1e1e1e);
+}
+.navbar a {
+    color: #f5f5f5 !important;
+    transition: color 0.3s;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%233FBDD9' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(63, 190, 217, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+.navbar a:hover {
+    color: rgb(63, 190, 217) !important;
+}
+.navbar-dark .navbar-nav .nav-link:focus,.navbar-dark .navbar-nav .nav-link:active {
+  color: rgb(63, 190, 217) !important;
+  border: 2px solid rgb(63, 190, 217);
+  border-radius: 5px;         
+  outline: none !important;   
+  box-shadow: none !important;
+  background-color: transparent !important;
+}
+.dropdown-item:hover{
+    background-color:#1e1e1e;
+}
+.carousel-inner img {
+    height: 100vh;
+    width: 100%;
+}
+.carousel-caption h5,.carousel-caption p {
+    color: #1A4869;
+}
+.accordion-button::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%233FBDD9' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3E%3C/svg%3E");
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%233FBDD9' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3E%3C/svg%3E");
+}
+.accordion-button {
+    color: rgb(63, 190, 217) !important;
+    background-color: #1e1e1e !important;
+}
+.accordion-button:focus {
+    box-shadow: none !important;
+    border: none !important;
+    color: rgb(63, 190, 217) !important;
+}
+.accordion-button:not(.collapsed) {
+    color: rgb(63, 190, 217) !important;
+    background-color: #1e1e1e !important;
+}
+.card {
+    background: #1e1e1e;
+    border: none;
+    color: #f5f5f5;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(63, 190, 217, 0.8);
+}
+.card-title {
+    color: rgb(63, 190, 217);
+}
+.btn-primary {
+    background: rgb(63, 190, 217) !important;
+    border: none;
+}
+.btn-primary:hover {
+    background: rgba(63, 190, 217,0.6) !important;
+}
+.sec5 div,.sec7 div {
+    background-image: url(../images/photo_19_2025-09-16_16-17-10.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    position: relative;
+}
+h1,h2,h3,h4,h5 {
+    color: rgb(63, 190, 217);
+}
+.btn2{
+    color:rgb(63, 190, 217);
+}
+p {
+    color: #bbbbbb;
+}
+.sec6 .card::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 0%;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+.sec6 .card::before {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    right: 0;
+    width: 0%;
+    height: 0%;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+.sec6 .card:hover::after,.sec6 .card:hover::before {
+    width: 100%;
+    height: 100%;
+}
+.sec6 .card::after,.sec6 .card::before {
+    background-color: rgba(63, 190, 217,0.4);
+}
+.sec6 .card:hover::after,.sec6 .card:hover::before {
+    background-color: rgba(63, 190, 217,0.4);
+}
+.sec,.modal-content {
+    background-color: #1e1e1e !important;
+}
+.myBar {
+  width: 25%;
+  animation: load 2s forwards;
+}
+.card-sec8{
+    transition: 0.5s;
+}
+.sec8 .card{
+    transform: translateY(0px);
+}
+.card-sec8:hover{
+    transform: scale(0.9);
+}
+@keyframes load {
+  from {
+    width: 25%;
+  }
+  to {
+    width: 70%;
+  }
+}
+.sec9 .right {
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 23% 100%);
+}
+.sec9 .left {
+    clip-path: polygon(0 0, 100% 0, 72% 100%, 0 100%);
+}
+.div2 img {
+  transition: transform 0.5s ease;
+  height: 400PX;
+}
+.div2:hover img {
+  transform: scale(1.1);
+}
+.card {
+    position: relative;
+}
+.div1 {
+    right: 0;
+    transform: translateY(-50%);
+}
+.div1 a:hover{
+    color:rgba(63, 190, 217,0.7) !important;
+    transform: scale(1.1) !important;
+}
+.sec6 .card img{
+    object-fit: cover;
+    height: 250px;
+}
+@media screen and (max-width: 576px) {
+    .sec9 .left, .sec9 .right {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+    .sec9{
+        display: none;
+    }
+    .hidden{
+        display: block !important;
+    }
+}

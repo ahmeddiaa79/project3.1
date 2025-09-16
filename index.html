@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>project3</title>
+</head>
+
+<body class=" bg-black">
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="javascript:void(0)"><img class=" rounded-circle" style="width:50px;height:50px;"
+          src="images/40.UptownTownhousebyChangoCo-RecreationRoomSeatingArea-7603584a62a54f69a7f10a0ce621c0ca-d474eb2c1c5c43de80802f9aa4846a47.jpg"
+          alt=""></a>
+      <button class="navbar-toggler btn2" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon "></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto  border-0">
+          <li class="nav-item p-2">
+            <a class="nav-link focus-ring" href="javascript:void(0)">home</a>
+          </li>
+          <li class="nav-item p-2">
+            <a class="nav-link focus-ring" href="javascript:void(0)">about us</a>
+          </li>
+          <li class="nav-item dropdown p-2">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">catigoreis</a>
+            <ul class="dropdown-menu bg-dark">
+              <li><a class="dropdown-item nav-link" href="#">labtops</a></li>
+              <li><a class="dropdown-item nav-link" href="#">mousies</a></li>
+              <li><a class="dropdown-item nav-link" href="#">head phones</a></li>
+            </ul>
+          </li>
+          <li class="nav-item p-2">
+            <a class="nav-link" href="javascript:void(0)">contact us</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="text" placeholder="Search">
+          <button class="btn btn-primary me-2" type="button">Search</button>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Login
+          </button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div class="div1 position-fixed top-50  fs-2" style="z-index:1000;">
+    <a href="#" class=" d-block btn2 px-2"><i class="fab fa-facebook-square"></i></a>
+    <a href="#" class=" d-block btn2 px-2"><i class="fab fa-instagram-square"></i></a>
+    <a href="#" class=" d-block btn2 px-2"><i class="fab fa-whatsapp-square"></i></a>
+    <a href="#" class=" d-block btn2 px-2"><i class="fab fa-linkedin"></i></a>
+    <a href="#" class=" d-block btn2 px-2"><i class="fab fa-twitter-square"></i></a>
+  </div>
+  <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+    </div>
+
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/computer-mouse-with-blue-light-that-says-mouse_745528-7133.avif" alt="Los Angeles">
+        <div class="carousel-caption bg-black bg-opacity-50 rounded">
+          <h3>mouse</h3>
+          <p class=" text-light">We had such a great time in LA!</p>
+          <button class="btn btn-primary">call us</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/assets_task_01k5aadk4efhha39kyj9kaad46_1758061896_img_1.webp" alt="Los Angeles">
+        <div class="carousel-caption bg-black bg-opacity-50 rounded">
+          <h3>labtop</h3>
+          <p class=" text-light">We had such a great time in LA!</p>
+          <button class="btn btn-primary">call us</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/Headphones.webp" alt="Los Angeles">
+        <div class="carousel-caption bg-black bg-opacity-50 rounded">
+          <h3>head phone</h3>
+          <p class=" text-light">We had such a great time in LA!</p>
+          <button class="btn btn-primary">call us</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/photo_4_2025-09-16_16-17-10.jpg" alt="Los Angeles">
+        <div class="carousel-caption bg-black bg-opacity-50 rounded">
+          <h3>keybord</h3>
+          <p class=" text-light">We had such a great time in LA!</p>
+          <button class="btn btn-primary">call us</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev " type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <!-- <span class="carousel-control-prev-icon text-warning"></span> -->
+       <a href="#" class=" btn2 fs-2 z-3"><i class="fas fa-chevron-left"></i></a>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <!-- <span class="carousel-control-next-icon"></span> -->
+       <a href="#" class=" btn2 fs-2 z-3"><i class="fas fa-chevron-right"></i></a>
+    </button>
+  </div>
+  <div class="container-fluid p-3 text-light">
+    <h2>welcome</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quasi quis vitae quas modi in odit nemo
+      distinctio, incidunt, quaerat ut maxime illum voluptas autem! Veniam nemo at asperiores perferendis?</p>
+    <button class="btn btn-primary">lern more</button>
+  </div>
+  <!-- Modal -->
+  <div class="modal fade model" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">login</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="mb-3">
+            <label for="formGroupExampleInput" class="form-label">email address</label>
+            <input type="email" class="form-control" id="formGroupExampleInput" placeholder="enter your email">
+          </div>
+          <div class="mb-3">
+            <label for="formGroupExampleInput2" class="form-label">password</label>
+            <input type="password" class="form-control" id="formGroupExampleInput2" placeholder="enter your password">
+          </div>
+          <div><input type="checkbox" class=" fs-3"> remember me</div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary w-100" data-bs-dismiss="modal">login</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="sec2 text-light pb-3 ">
+    <div class="py-3">
+      <h1 class=" text-center p-5  w-100 sec">our catigories</h1>
+    </div>
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+      <div class="accordion-item border-0">
+        <h2 class="accordion-header ">
+          <button class="accordion-button collapsed  btn2 sec" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            Labtops
+          </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse bg-black text-light"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+            <code class="card-title">.accordion-flush</code> class. This is the first item’s accordion body.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item border-0">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed btn2 sec" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            Mousies
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse bg-black text-light"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+            <code class="card-title">.accordion-flush</code> class. This is the second item’s accordion body. Let’s imagine this being
+            filled with some actual content.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item border-0">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed btn2 sec" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            Keybords
+          </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse bg-black text-light"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+            <code class="card-title">.accordion-flush</code> class. This is the third item’s accordion body. Nothing more exciting
+            happening here in terms of content, but just filling up the space to make it look, at least at first glance,
+            a bit more representative of how this would look in a real-world application.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item border-0">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed btn2 sec" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            Head Phones
+          </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse bg-black text-light"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+            <code class="card-title">.accordion-flush</code> class. This is the third item’s accordion body. Nothing more exciting
+            happening here in terms of content, but just filling up the space to make it look, at least at first glance,
+            a bit more representative of how this would look in a real-world application.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="sec3">
+    <div class="py-3">
+      <h1 class=" text-center p-5 sec w-100">set your order and sunmmit</h1>
+    </div>
+    <div class=" px-3">
+      <h2>We are honored <span class=" text-light">by you</span></h2>
+      <!-- Button to Open the Modal -->
+      <button type="button" class="btn btn-primary position-relative mb-4 btn1" data-bs-toggle="modal"
+        data-bs-target="#copyModal">
+        submmit
+        <!-- الكلمة الصغيرة "Copied!" -->
+        <span class="position-absolute start-100 translate-middle badge rounded-pill bg-success copy">
+          done!
+        </span>
+      </button>
+
+      <!-- The Modal -->
+      <div class="modal " id="myModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">shop</h4>
+              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+              <p>the order submmited</p>
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">ok</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="form-floating border-none">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+          style="height: 100px"></textarea>
+        <label for="floatingTextarea2" class=" text-dark ">order:</label>
+      </div>
+    </div>
+  </section>
+  <section class="sec4">
+    <div class="py-3">
+      <h1 class=" text-center p-5 sec w-100">set your another order and sunmmit</h1>
+    </div>
+    <div class=" px-3">
+      <h2>We are honored <span class=" text-light">by you</span></h2>
+      <!-- Button to Open the Modal -->
+      <!-- زرار Copy -->
+      <button type="button" class="btn btn-primary position-relative mb-4 btn1" data-bs-toggle="modal"
+        data-bs-target="#copyModal">
+        submmit
+        <!-- الكلمة الصغيرة "Copied!" -->
+        <span class="position-absolute start-100 translate-middle badge rounded-pill bg-success copy">
+          done!
+        </span>
+      </button>
+
+      <!-- الـ Modal -->
+      <div class="modal fade" id="copyModal" tabindex="-1" aria-labelledby="copyModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="copyModalLabel">shop</h5>
+              <button type="button" class="btn-close btn-primary" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              the order submmited
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">OK</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-floating">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+          style="height: 100px"></textarea>
+        <label for="floatingTextarea2" class=" text-black">order:</label>
+      </div>
+    </div>
+  </section>
+  <section class="sec5 py-5 sec">
+    <div></div>
+  </section>
+  <section class="sec6">
+    <div class="py-3">
+      <h1 class="text-center p-5 sec w-100">The Most  Our products</h1>
+    </div>
+    <div class="container">
+      <div class="row g-4 justify-content-center p-5">
+        <div class="col-12 col-md-4">
+          <div class="card h-100">
+            <img src="images/photo_10_2025-09-16_16-17-10.jpg"
+              class="card-img-top img-fluid" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title">gaming mouse</h4>
+              <div class="mt-auto d-flex justify-content-end">
+                <a href="#" class="btn btn-primary">show</a>
+              </div>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, incidunt?</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-12 col-md-4 ">
+          <div class="card h-100">
+            <img
+              src="images/photo_13_2025-09-16_16-17-10.jpg"
+              class="card-img-top img-fluid" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title">gaming head phone</h4>
+              <div class="mt-auto d-flex justify-content-end">
+                <a href="#" class="btn btn-primary">show</a>
+              </div>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, illum.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 ">
+          <div class="card h-100">
+            <img
+              src="images/photo_15_2025-09-16_16-17-10.jpg"
+              class="card-img-top img-fluid" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title">airpodes</h4>
+              <div class="mt-auto d-flex justify-content-end">
+                <a href="#" class="btn btn-primary">show</a>
+              </div>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, dignissimos.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 ">
+          <div class="card h-100">
+            <img src="images/photo_17_2025-09-16_16-17-10.jpg"
+              class="card-img-top img-fluid" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title">head phone</h4>
+              <div class="mt-auto d-flex justify-content-end">
+                <a href="#" class="btn btn-primary">show</a>
+              </div>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, aliquid.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 ">
+          <div class="card h-100">
+            <img src="images/photo_18_2025-09-16_16-17-10.jpg" class="card-img-top img-fluid" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title">airpodes</h4>
+              <div class="mt-auto d-flex justify-content-end">
+                <a href="#" class="btn btn-primary">show</a>
+              </div>
+              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam, odio!</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 ">
+          <div class="card h-100">
+            <img src="images/photo_21_2025-09-16_16-17-10.jpg" class="card-img-top img-fluid" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title">gaming pc</h4>
+              <div class="mt-auto d-flex justify-content-end">
+                <a href="#" class="btn btn-primary">show</a>
+              </div>
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, doloremque.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 ">
+          <div class="card h-100">
+            <img src="images/photo_28_2025-09-16_16-17-10.jpg"
+              class="card-img-top img-fluid" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title">labtop</h4>
+              <div class="mt-auto d-flex justify-content-end">
+                <a href="#" class="btn btn-primary">show</a>
+              </div>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, suscipit?</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 ">
+          <div class="card h-100">
+            <img
+              src="images/photo_2_2025-09-16_16-17-10.jpg"
+              class="card-img-top img-fluid" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title">mac os</h4>
+              <div class="mt-auto d-flex justify-content-end">
+                <a href="#" class="btn btn-primary">show</a>
+              </div>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, suscipit?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="sec7 py-5 sec">
+    <div></div>
+  </section>
+  <section class="sec8">
+    <div class="py-3">
+      <h1 class="text-center p-5 sec w-100">our team</h1>
+    </div>
+    <div class="container">
+      <div class="row g-4 justify-content-center p-5">
+        <div class="col-md-4 card-sec8">
+          <div class="card p-0 rounded-5" style="height:300px;">
+            <img class="card-img-top img-fluid h-100 rounded-5"
+              src="images/prostat-kanseri-hakkinda-her-erkegin-bilmesi-gerekenler-754011.jpg"
+              alt="Card image" style="object-fit: cover;">
+
+            <div class="card-img-overlay d-flex flex-column bg-dark bg-opacity-50 rounded-5">
+              <p class="card-title text-white">All thanks and appreciation </p>
+              <p class="card-text text-white">23 September 2025</p>
+              <div class="mt-auto">
+                <img src="images/prostat-kanseri-hakkinda-her-erkegin-bilmesi-gerekenler-754011.jpg"
+                  class="me-3" style="width:75px; height:100px; border-radius: 50px; object-fit: cover;" alt="Avatar">
+                <p class="m-0 text-white">eng:ahmed mohamed</p>
+                <p class="m-0 text-white">General Manager</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 card-sec8">
+          <div class="card p-0 rounded-5" style="height:300px;">
+            <img class="card-img-top img-fluid h-100 rounded-5"
+              src="images/wyOQKGpr78hqvr7dxi49_06_5cb571b8fe2ed927d005adccb9ef6e24_avatar_full.jpg"
+              alt="Card image" style="object-fit: cover;">
+
+            <div class="card-img-overlay d-flex flex-column bg-dark bg-opacity-50 rounded-5">
+              <p class="card-title text-white">All thanks and appreciation </p>
+              <p class="card-text text-white">23 September 2025</p>
+              <div class="mt-auto">
+                <img src="images/wyOQKGpr78hqvr7dxi49_06_5cb571b8fe2ed927d005adccb9ef6e24_avatar_full.jpg"
+                  class="me-3" style="width:75px; height:100px; border-radius: 50px; object-fit: cover;" alt="Avatar">
+                <p class="m-0 text-white">eng:ahmed diaa</p>
+                <p class="m-0 text-white">web devolopment</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 card-sec8">
+          <div class="card p-0 rounded-5" style="height:300px;">
+            <img class="card-img-top img-fluid h-100 rounded-5"
+              src="images/df271521a12773528a59498632d7ba6a.jpg"
+              alt="Card image" style="object-fit: cover;">
+
+            <div class="card-img-overlay d-flex flex-column bg-dark bg-opacity-50 rounded-5">
+              <p class="card-title text-white">All thanks and appreciation </p>
+              <p class="card-text text-white">23 September 2025</p>
+              <div class="mt-auto">
+                <img src="images/df271521a12773528a59498632d7ba6a.jpg"
+                  class="me-3 " style="width:75px; height:100px; border-radius: 50px; object-fit: cover;" alt="Avatar">
+                <p class="m-0 text-white">mahmoud ali</p>
+                <p class="m-0 text-white">director of ui / ux</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    </div>
+  </section>
+  <section class="sec9 py-5 hidden d-none">
+    <div class=" container">
+      <h1 class="text-center mb-5">the lastest newes</h1>
+      <div class="row align-items-center mb-5 sec rounded div2">
+        <div class="col-md-6 overflow-hidden left mb-3">
+          <img class="img-fluid w-100 left "
+            src="images/40.UptownTownhousebyChangoCo-RecreationRoomSeatingArea-7603584a62a54f69a7f10a0ce621c0ca-d474eb2c1c5c43de80802f9aa4846a47.jpg"
+            alt="">
+        </div>
+        <div class="col-md-6">
+          <h3>strweuoi7</h3>
+          <p>iuewayopaoiuer</p>
+          <div class="progress bg-black" style="width:100px; height:10px" role="progressbar" aria-label="Basic example"
+            aria-valuenow="25" aria-valuemin="70" aria-valuemax="100">
+            <div class="progress-bar btn-primary myBar "></div>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut at optio consequatur mollitia...</p>
+          <a href="#" class="btn btn-primary"><i class="fas fa-microphone"></i> uyefhg</a>
+          <a href="#" class="btn btn-primary"><i class="fas fa-microphone"></i> uyefhg</a>
+          <a href="#" class="btn btn-primary"><i class="fas fa-microphone"></i> uyefhg</a>
+        </div>
+      </div>
+      <div class="row align-items-center mb-5 sec rounded div2">
+        <div class="col-md-6 overflow-hidden left mb-3">
+          <img class="img-fluid w-100 left "
+            src="images/40.UptownTownhousebyChangoCo-RecreationRoomSeatingArea-7603584a62a54f69a7f10a0ce621c0ca-d474eb2c1c5c43de80802f9aa4846a47.jpg"
+            alt="">
+        </div>
+        <div class="col-md-6">
+          <h3>strweuoi7</h3>
+          <p>iuewayopaoiuer</p>
+          <div class="progress bg-black" style="width:100px; height:10px" role="progressbar" aria-label="Basic example"
+            aria-valuenow="25" aria-valuemin="70" aria-valuemax="100">
+            <div class="progress-bar btn-primary myBar "></div>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut at optio consequatur mollitia...</p>
+          <a href="#" class="btn btn-primary"><i class="fas fa-microphone"></i> uyefhg</a>
+          <a href="#" class="btn btn-primary"><i class="fas fa-microphone"></i> uyefhg</a>
+          <a href="#" class="btn btn-primary"><i class="fas fa-microphone"></i> uyefhg</a>
+        </div>
+      </div>
+      <div class="row align-items-center mb-5 sec rounded div2">
+        <div class="col-md-6 overflow-hidden left mb-3">
+          <img class="img-fluid w-100 left mb-3"
+            src="images/40.UptownTownhousebyChangoCo-RecreationRoomSeatingArea-7603584a62a54f69a7f10a0ce621c0ca-d474eb2c1c5c43de80802f9aa4846a47.jpg"
+            alt="">
+        </div>
+        <div class="col-md-6">
+          <h3>strweuoi7</h3>
+          <p>iuewayopaoiuer</p>
+          <div class="progress bg-black" style="width:100px; height:10px" role="progressbar" aria-label="Basic example"
+            aria-valuenow="25" aria-valuemin="70" aria-valuemax="100">
+            <div class="progress-bar btn-primary myBar "></div>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut at optio consequatur mollitia...</p>
+          <a href="#" class="btn btn-primary"><i class="fas fa-microphone"></i> uyefhg</a>
+          <a href="#" class="btn btn-primary"><i class="fas fa-microphone"></i> uyefhg</a>
+          <a href="#" class="btn btn-primary"><i class="fas fa-microphone"></i> uyefhg</a>
+        </div>
+      </div>
+      <div class="row align-items-center mb-5 sec rounded div2 ">
+        <div class="col-md-6 overflow-hidden left mb-3">
+          <img class="img-fluid w-100 left"
+            src="images/40.UptownTownhousebyChangoCo-RecreationRoomSeatingArea-7603584a62a54f69a7f10a0ce621c0ca-d474eb2c1c5c43de80802f9aa4846a47.jpg"
+            alt="">
+        </div>
+        <div class="col-md-6">
+          <h3>strweuoi7</h3>
+          <p>iuewayopaoiuer</p>
+          <div class="progress bg-black" style="width:100px; height:10px" role="progressbar" aria-label="Basic example"
+            aria-valuenow="25" aria-valuemin="70" aria-valuemax="100">
+            <div class="progress-bar btn-primary myBar"></div>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut at optio consequatur mollitia...</p>
+          <a href="#" class="btn btn-primary"><i class="fas fa-microphone"></i> uyefhg</a>
+          <a href="#" class="btn btn-primary"><i class="fas fa-microphone"></i> uyefhg</a>
+          <a href="#" class="btn btn-primary"><i class="fas fa-microphone"></i> uyefhg</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="sec9 py-5">
+    <div class=" container">
+      <h1 class=" text-center mb-5">the lastest newes</h1>
+      <div class="row align-items-center mb-5 sec rounded div2">
+        <div class="col-md-6">
+          <h3>labtops</h3>
+          <p>mon.may 25th 2020</p>
+          <div class="progress bg-black" style="width:100px; height:10px" role="progressbar" aria-label="Basic example"
+            aria-valuenow="25" aria-valuemin="70" aria-valuemax="100">
+            <div class="progress-bar btn-primary myBar"></div>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut at optio consequatur mollitia...</p>
+          <a href="#" class="btn btn-primary"><i class="fas fa-microphone"></i> uyefhg</a>
+          <a href="#" class="btn btn-primary"><i class="fas fa-microphone"></i> uyefhg</a>
+          <a href="#" class="btn btn-primary"><i class="fas fa-microphone"></i> uyefhg</a>
+        </div>
+        <div class="col-md-6 overflow-hidden right">
+          <img class="img-fluid w-100 right"
+            src="images/photo_28_2025-09-16_16-17-10.jpg"
+            alt="">
+        </div>
+      </div>
+      <div class="row align-items-center mb-5 sec rounded div2">
+        <div class="col-md-6 overflow-hidden left">
+          <img class="img-fluid w-100 left "
+            src="images/photo_22_2025-09-16_16-17-10.jpg"
+            alt="">
+        </div>
+        <div class="col-md-6">
+          <h3>pc screan</h3>
+          <p>mon.may 25th 2020</p>
+          <div class="progress bg-black" style="width:100px; height:10px" role="progressbar" aria-label="Basic example"
+            aria-valuenow="25" aria-valuemin="70" aria-valuemax="100">
+            <div class="progress-bar btn-primary myBar "></div>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut at optio consequatur mollitia...</p>
+          <a href="#" class="btn btn-primary"><i class="fas fa-microphone"></i> uyefhg</a>
+          <a href="#" class="btn btn-primary"><i class="fas fa-microphone"></i> uyefhg</a>
+          <a href="#" class="btn btn-primary"><i class="fas fa-microphone"></i> uyefhg</a>
+        </div>
+      </div>
+      <div class="row align-items-center mb-5 sec rounded div2">
+        <div class="col-md-6">
+          <h3>mouse gaming</h3>
+          <p>mon.may 25th 2020</p>
+          <div class="progress bg-black" style="width:100px; height:10px" role="progressbar" aria-label="Basic example"
+            aria-valuenow="25" aria-valuemin="70" aria-valuemax="100">
+            <div class="progress-bar btn-primary myBar"></div>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut at optio consequatur mollitia...</p>
+          <a href="#" class="btn btn-primary"><i class="fas fa-microphone"></i> uyefhg</a>
+          <a href="#" class="btn btn-primary"><i class="fas fa-microphone"></i> uyefhg</a>
+          <a href="#" class="btn btn-primary"><i class="fas fa-microphone"></i> uyefhg</a>
+        </div>
+        <div class="col-md-6 overflow-hidden right">
+          <img class="img-fluid w-100 right"
+            src="images/photo_9_2025-09-16_16-17-10.jpg"
+            alt="">
+        </div>
+      </div>
+      <div class="row align-items-center mb-5 sec rounded div2">
+        <div class="col-md-6 overflow-hidden left">
+          <img class="img-fluid w-100 left"
+            src="images/photo_6_2025-09-16_16-17-10.jpg"
+            alt="">
+        </div>
+        <div class="col-md-6">
+          <h3>keybord</h3>
+          <p>mon.may 25th 2020</p>
+          <div class="progress bg-black" style="width:100px; height:10px" role="progressbar" aria-label="Basic example"
+            aria-valuenow="25" aria-valuemin="70" aria-valuemax="100">
+            <div class="progress-bar btn-primary myBar"></div>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut at optio consequatur mollitia...</p>
+          <a href="#" class="btn btn-primary"><i class="fas fa-microphone"></i> uyefhg</a>
+          <a href="#" class="btn btn-primary"><i class="fas fa-microphone"></i> uyefhg</a>
+          <a href="#" class="btn btn-primary"><i class="fas fa-microphone"></i> uyefhg</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="sec10 py-5">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card h-100 text-center p-3">
+            <h2 class="h5 card-title">twitter</h2>
+            <img class="card-img-top img-fluid rounded w-75 mx-auto"
+              src="images/be3704f3-3bff-4c45-9404-0a7078d56246.png"
+              alt="">
+            <div class="card-body">
+              <a href="#" class="text-decoration-none card-title">connenct</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card h-100 text-center p-3">
+            <h2 class="h5 card-title">whats app</h2>
+            <img class="card-img-top img-fluid rounded w-75 mx-auto"
+              src="images/a1698ac3-2b27-410a-899f-39c3d6dde754.png"
+              alt="">
+            <div class="card-body">
+              <a href="#" class="text-decoration-none card-title">connenct</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card h-100 text-center p-3">
+            <h2 class="h5 card-title">instagram</h2>
+            <img class="card-img-top img-fluid rounded w-75 mx-auto"
+              src="images/5f8ffd3e-386d-4968-9c7d-897beae42061.png"
+              alt="">
+            <div class="card-body">
+              <a href="#" class="text-decoration-none card-title">connenct</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card h-100 text-center p-3">
+            <h2 class="h5 card-title">linledin</h2>
+            <img class="card-img-top img-fluid rounded w-75 mx-auto"
+              src="images/linkedin-logo-linkedin-icon-transparent-free-png.webp"
+              alt="">
+            <div class="card-body">
+              <a href="#" class="text-decoration-none card-title">connenct</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class=" sec mt-5">
+    <div class="container">
+      <div class="row g-4 justify-content-center align-items-center">
+        <div class="col-12 col-sm-8 col-md-4">
+          <div class="card p-3 border-0 mx-auto text-center" style="max-width: 350px;">
+            <div class="d-flex flex-column flex-md-row align-items-center mx-auto">
+              <img src="images/photo_11_2025-09-16_16-17-10.jpg"
+                class="rounded-circle mb-2 mb-md-0 me-md-3" style="width:100px; height:100px;" alt="Avatar">
+              <span class="card-title">we are th best</span>
+            </div>
+            <div class="p-3">
+              <p>Lorem, ipsum dolor.</p>
+              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Lorem ipsum dolor sit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-8 col-md-4">
+          <div class="card p-3 border-0 mx-auto text-center" style="max-width: 350px;">
+            <div class="d-flex flex-column flex-md-row align-items-center mx-auto">
+              <img src="images/photo_3_2025-09-16_16-17-10.jpg"
+                class="rounded-circle mb-2 mb-md-0 me-md-3" style="width:100px; height:100px;" alt="Avatar">
+              <span class="card-title">important things</span>
+            </div>
+            <div class="p-3">
+              <p>Lorem, ipsum dolor.</p>
+              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Lorem ipsum dolor sit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-8 col-md-4">
+          <div class="card p-3 border-0 mx-auto text-center" style="max-width: 350px;">
+            <div class="d-flex flex-column flex-md-row align-items-center  mx-auto">
+              <img src="images/photo_5_2025-09-16_16-17-10.jpg"
+                class="rounded-circle mb-2 mb-md-0 me-md-3" style="width:100px; height:100px;" alt="Avatar">
+              <h5 class="card-title">our vision</h5>
+            </div>
+            <div class="p-3">
+              <p>Lorem, ipsum dolor.</p>
+              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Lorem ipsum dolor sit.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class=" text-center mt-2 py-3">
+      <p class=" m-0 card-title">&copy; 2025 electronic devicies express all rights reserved designed by ahmed diaa</p>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
